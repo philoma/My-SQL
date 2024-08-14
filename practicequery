@@ -56,3 +56,5 @@ GO;
 
 
 DESCRIBE or DESC(both are the same) commands to describe the structure of a table
+
+To select a column name with spaces, use the back tick symbol with column name. The symbol is ( ` `)
