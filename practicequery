@@ -53,3 +53,6 @@ CREATE PROCEDURE procedure_name
 AS
 sql_statement
 GO;
+
+
+DESCRIBE or DESC(both are the same) commands to describe the structure of a table
