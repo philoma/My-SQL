@@ -63,3 +63,11 @@ To select a column name with spaces, use the back tick symbol with column name. 
 Query the difference between the maximum and minimum populations in CITY.
 select max(population),min(population) from city into @a,@b;
 select @a-@b;
+
+Key Points about HAVING:
+Works with Aggregated Data:
+
+Unlike the WHERE clause (which filters rows before grouping), HAVING filters aggregated results after a GROUP BY.
+Used After GROUP BY:
+
+The HAVING clause must appear after the GROUP BY clause.
