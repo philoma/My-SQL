@@ -18,3 +18,22 @@ ON e.dept_id = d.dept_id;
 
 
 <img width="545" height="165" alt="image" src="https://github.com/user-attachments/assets/3eef760d-578f-41f1-a672-0b4ae9296572" />
+
+
+
+Write a query identifying the type of each record in the TRIANGLES: <br>
+
+  select 
+    case when a+b>c and b+c>a and a+c>b then
+        case 
+            when a=b and b=c and c=a then 'Equilateral'
+            when a=b or b=c or a=c then 'Isosceles'
+        else
+            'Scalene'
+        end
+    else
+        'Not A Triangle'
+    end
+    as t
+from TRIANGLES;
+
