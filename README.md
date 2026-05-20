@@ -37,3 +37,13 @@ Write a query identifying the type of each record in the TRIANGLES: <br>
     as t
 from TRIANGLES;
 
+<br>
+Execution order:
+<br>
+FROM
+WHERE
+GROUP BY
+HAVING
+SELECT
+ORDER BY
+LIMIT
